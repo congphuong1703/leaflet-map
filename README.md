@@ -10,6 +10,7 @@ Sử dung GDAL để tách ảnh thành nhiều tile nhỏ: gdal2tiles.py -z 1-1
 Note: Càng nhiều độ zoom thì càng lâu do phải tách ảnh thành nhiều tile
 
 Ví dụ: [Disney Land](https://disneyland.disney.go.com/destinations/)
+
 Tính năng:
  - Đa ngôn ngữ
  - Awesome Icon Leaflet
