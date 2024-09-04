@@ -3,15 +3,16 @@ import {SearchOutlined} from "@ant-design/icons";
 import React from "react";
 import parkData from "../data/data.json";
 
-const searchOptions = parkData.features.map((ele) => {
-    return {
-        label: ele.properties.shortName + " - " + ele.properties.name,
-        value: ele.properties.id
-    }
-})
 
 const SearchingLocation = (props) => {
-    const {isSearch, setIsSearch, onSearch} = props
+    const {isSearch, setIsSearch, markers, onSearch} = props
+
+    const searchOptions = markers.map((ele) => {
+        return {
+            label: ele.properties.shortName + " - " + ele.properties.name,
+            value: ele.properties.id
+        }
+    })
     return (
         <Affix className="container-searching content">
             <Space>

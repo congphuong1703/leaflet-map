@@ -1,21 +1,25 @@
 import {Affix, Button, Collapse, List, Modal, Typography} from "antd";
 import React, {useState} from "react";
-import parkData from "../data/data.json";
 import {MenuOutlined} from "@ant-design/icons";
+import {OPTIONS_TYPE_MARKER} from "../Constants";
 
-const groupedData = parkData.features.reduce((acc, curr) => {
-    if (!acc[curr.type]) {
-        acc[curr.type] = [curr];
-    } else {
-        acc[curr.type].push(curr);
-    }
-    return acc;
-}, {});
 
 const ListLocations = (props) => {
 
     const [isOpenInfo, setIsOpenInfo] = useState(false)
-    const {setActiveMarker, setCoordinateCenter} = props
+    const {setActiveMarker, markers, setCoordinateCenter} = props
+
+    const groupedData = markers.reduce((acc, curr) => {
+        console.log("curr", curr, acc)
+        const type = OPTIONS_TYPE_MARKER.find(e => e.value === curr.type).label
+        if (!acc[type]) {
+            acc[type] = [curr];
+        } else {
+            acc[type].push(curr);
+        }
+        return acc;
+    }, {});
+    console.log("groupedData", groupedData)
     const onClick = (item) => {
         setIsOpenInfo(false)
         setActiveMarker(item)
@@ -25,7 +29,7 @@ const ListLocations = (props) => {
         )
 
     }
-
+    console.log("key", groupedData)
     return (
         <>
             <Affix offsetTop={100} className="container-searching">
@@ -39,7 +43,8 @@ const ListLocations = (props) => {
                 onCancel={() => setIsOpenInfo(false)}
                 title="Danh sách địa điểm">
                 <div style={{maxHeight: 800, overflow: "auto"}}>
-                    {Object.keys(groupedData).map((key, index) => {
+                    {Object.keys(markers).map((key, index) => {
+                        const label = OPTIONS_TYPE_MARKER.find(e => e.value === markers[key].type).label
                         return (<Collapse
                             style={{marginBottom: 5}}
                             bordered
@@ -48,10 +53,10 @@ const ListLocations = (props) => {
                             items={[
                                 {
                                     key: index,
-                                    label: key,
+                                    label: label,
                                     children: <List
                                         bordered
-                                        dataSource={groupedData[key]}
+                                        dataSource={groupedData[label]}
                                         renderItem={(item) => {
                                             return (
                                                 <List.Item style={{cursor: 'pointer'}}>

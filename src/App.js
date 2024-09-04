@@ -96,8 +96,8 @@ const App = () => {
                            setActiveMarker={setActiveMarker} />
             <RoutingMachine from={coordinateRoute} to={currentLocation} isLocate={isLocate} />
             <UseCurrentLocation setCurrentLocation={setCurrentLocation} />
-            <SearchingLocation onSearch={onSearch} isSearch={isSearch} setIsSearch={setIsSearch} />
-            <ListLocations setActiveMarker={setActiveMarker} setCoordinateCenter={setCoordinateCenter} />
+            <SearchingLocation onSearch={onSearch} isSearch={isSearch} setIsSearch={setIsSearch} markers={markers} />
+            <ListLocations setActiveMarker={setActiveMarker} markers={markers} setCoordinateCenter={setCoordinateCenter} />
             <AddMarker setMarkers={setMarkers} />
         </MapContainer>
     );

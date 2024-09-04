@@ -55,6 +55,12 @@ const ModalPropertiesMarker = (props) => {
                     <Input name="name" placeholder={`${t('form.name')}`} />
                 </Form.Item>
                 <Form.Item name="shortName"
+                           rules={[
+                               {
+                                   whitespace: true,
+                                   required: true,
+                                   message: t('message.inputRequire'),
+                               }]}
                            label={t('form.shortName')}>
                     <Input name="shortName" placeholder={`${t('form.shortName')}`} />
                 </Form.Item>
