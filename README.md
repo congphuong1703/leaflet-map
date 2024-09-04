@@ -24,4 +24,5 @@ Tính năng:
 
 
 
-Ví dụ: ![Screenshot 2024-09-04 at 13.13.35.png](..%2F..%2F..%2FDesktop%2FScreenshot%202024-09-04%20at%2013.13.35.png)
+Ví dụ: ![Screenshot 2024-09-04 at 13.13.35.png](https://github.com/user-attachments/assets/c33e3f68-5d6a-4c4b-a0a4-408330282282)
+
