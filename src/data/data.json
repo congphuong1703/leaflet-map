@@ -1,0 +1,170 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "SCHOOL",
+      "properties": {
+        "id": 1,
+        "name": "Trường Đại Học Anh Quốc",
+        "shortName": "BUV",
+        "address": "Lô GĐ-01, Khu đô thị Ecopark, Hưng Yên, Vietnam",
+        "phoneNumber": "0966629909",
+        "website": "https://www.buv.edu.vn/",
+        "image": "/image/buv.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          20.966297741614152,
+          105.93165455823309
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "PARK",
+      "properties": {
+        "id": 2,
+        "name": "Công Viên Hồ Thiên Nga",
+        "shortName": "Swanlake Park",
+        "website": "",
+        "address": "Ecopark Township, Văn Giang, Hung Yen, Vietnam",
+        "phoneNumber": "0961263589",
+        "image": "/image/swanlake.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          20.95827745131749,
+          105.9283340885245
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "SHOP",
+      "properties": {
+        "id": 3,
+        "name": "Highlands Coffee",
+        "shortName": "Highlands Coffee",
+        "address": "Ecopark, Phụng Công, Văn Giang, Hưng Yên, Vietnam",
+        "website": "https://www.highlandscoffee.com.vn/",
+        "phoneNumber": "02217305885",
+        "image": "/image/highland.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          20.94964176892738,
+          105.93427626017733
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "SHOP",
+      "properties": {
+        "id": 4,
+        "name": "Hilltop cafe",
+        "shortName": "Hilltop cafe",
+        "website": "",
+        "address": "Bùng binh west bay Ecopark, Khu đô thị Ecopark, Ecopark, Hưng Yên, Vietnam",
+        "phoneNumber": "0983603485"
+      },
+      "geometry": {
+        "coordinates": [
+          20.951367431538262,
+          105.93371981351896
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "SHOP",
+      "properties": {
+        "id": 5,
+        "name": "Aftertaste Coffee Lab",
+        "shortName": "Aftertaste Coffee Lab",
+        "address": "168 Thảo Nguyên, Khu đô thị Ecopark, Văn Giang, Hưng Yên, Vietnam",
+        "website": "https://instagram.com/aftertaste.coffeelab",
+        "phoneNumber": "0944240687"
+      },
+      "geometry": {
+        "coordinates": [
+          20.95284826303716,
+          105.94326869671032
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "BUS_STOP",
+      "properties": {
+        "id": 6,
+        "name": "Điểm dừng xe Bus",
+        "shortName": "Bus Stop",
+        "address": "168 Thảo Nguyên, Khu đô thị Ecopark, Văn Giang, Hưng Yên, Vietnam",
+        "website": "https://ecopark.com.vn/",
+        "phoneNumber": "0987654321"
+      },
+      "geometry": {
+        "coordinates": [
+          20.956107736671584,
+          105.93051653447966
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "BUS_STOP",
+      "properties": {
+        "id": 7,
+        "name": "Điểm dừng xe Bus",
+        "shortName": "Bus Stop",
+        "address": "168 Thảo Nguyên, Khu đô thị Ecopark, Văn Giang, Hưng Yên, Vietnam",
+        "website": "https://ecopark.com.vn/",
+        "phoneNumber": "0987654321"
+      },
+      "geometry": {
+        "coordinates": [
+          20.965106885865055,
+          105.9235128023616
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "FITNESS",
+      "properties": {
+        "id": 9,
+        "name": "Unity Fitness & Pool Thủy Nguyên",
+        "shortName": "Unity Fitness",
+        "website": "",
+        "address": "Đ. Thủy Nguyên, Khu đô thị Ecopark, Hưng Yên, Vietnam",
+        "phoneNumber": "0904869886"
+      },
+      "geometry": {
+        "coordinates": [
+          20.949175603649106,
+          105.93679748688962
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "FITNESS",
+      "properties": {
+        "id": 10,
+        "name": "The A Fitness Club",
+        "website": "",
+        "shortName": "The A",
+        "address": "WWXM+MF3, Phụng Công, Văn Giang, Hưng Yên 160000, Vietnam",
+        "phoneNumber": "0876534999"
+      },
+      "geometry": {
+        "coordinates": [
+          20.9492413693363,
+          105.93401495084576
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

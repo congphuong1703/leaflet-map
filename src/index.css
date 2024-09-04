@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.blinking {
+    animation: fade 1s infinite alternate;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.5;
+    }
+}
+.content {
+    margin-top: 170px;
+}
+.content-search {
+    margin-top: 180px;
+}
+.container-searching {
+    position: relative;
+    z-index: 1000;
+    overflow-y: auto; /* Cho phép cuộn nếu nội dung quá lớn */
+}
+
+.btn-list {
+    margin-left: 11px;
+}
+
+.btn-border{
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+

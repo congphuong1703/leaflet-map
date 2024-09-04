@@ -1,0 +1,26 @@
+{
+  "language": {
+    "vn": "Tiếng Việt",
+    "en": "English",
+    "en-US": "English"
+  },
+  "modal": {
+    "addMarker": "Thêm địa điểm"
+  },
+  "action": {
+    "close": "Đóng",
+    "save": "Lưu"
+  },
+  "form": {
+    "position": "Vi trí",
+    "name": "Tên đầy đủ",
+    "shortName": "Tên rút gon",
+    "address": "Đia chỉ",
+    "website": "website",
+    "phoneNumber": "Số điên thoai",
+    "typePoint": "Loại điểm"
+  },
+  "message": {
+    "addSuccess": "Thêm mới thành công"
+  }
+}

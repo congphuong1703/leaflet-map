@@ -1,0 +1,33 @@
+{
+  "language": {
+    "vn": "Tiếng Việt",
+    "en": "English",
+    "en-US": "English"
+  },
+  "modal": {
+    "addMarker": "Add marker"
+  },
+  "action": {
+    "close": "Close",
+    "save": "Save",
+    "activeAddMarker": "Đã bật chế độ thêm marker",
+    "inactiveAddMarker": "Đã tắt chế độ thêm marker"
+  },
+  "form": {
+    "position": "Position",
+    "name": "Name",
+    "shortName": "Short name",
+    "address": "Address",
+    "website": "Website",
+    "phoneNumber": "Phone number",
+    "typePoint": "Type point",
+    "lat": "Lat",
+    "lng": "Lng"
+  },
+  "message": {
+    "addSuccess": "Add Successful"
+  },
+  "notification": {
+    "success": "Successful"
+  }
+}
